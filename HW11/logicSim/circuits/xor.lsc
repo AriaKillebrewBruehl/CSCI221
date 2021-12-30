@@ -1,0 +1,21 @@
+8
+input x
+input y
+and and1
+and and2
+not invx
+not invy
+or or0
+output xor
+9
+wire x invx
+wire y invy
+wire x and1
+wire invy and1
+wire y and2
+wire invx and2
+wire and1 or0
+wire and2 or0
+wire or0 xor
+
+

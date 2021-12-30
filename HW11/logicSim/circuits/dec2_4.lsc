@@ -1,0 +1,28 @@
+12
+input inp1
+input inp0
+output out00
+output out01
+output out10
+output out11
+not inv1
+not inv0
+and and00
+and and01
+and and10
+and and11
+14
+wire inp1 inv1
+wire inp0 inv0
+wire inv1 and00
+wire inv0 and00
+wire inv1 and01
+wire inp0 and01
+wire inp1 and10
+wire inv0 and10
+wire inp1 and11
+wire inp0 and11
+wire and00 out00
+wire and01 out01
+wire and10 out10
+wire and11 out11

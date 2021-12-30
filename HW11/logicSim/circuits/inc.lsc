@@ -1,0 +1,39 @@
+16
+input p2
+input p1
+input p0
+not inv_p2
+not inv_p1
+not inv_p0
+and p011
+and p1xx
+or  p_xx
+or or_n2
+and and1
+and and2
+or or_n1 
+output n2
+output n1
+output n0
+21
+wire p2 inv_p2
+wire p1 inv_p1
+wire p0 inv_p0
+wire p0 and1
+wire inv_p1 and1
+wire p1 and2
+wire inv_p0 and2
+wire and1 or_n1
+wire and2 or_n1
+wire inv_p2 p011 
+wire p1 p011 
+wire p0 p011 
+wire inv_p1 p_xx
+wire inv_p0 p_xx
+wire p2 p1xx
+wire p_xx p1xx
+wire p011 or_n2
+wire p1xx or_n2
+wire or_n2 n2
+wire or_n1 n1
+wire inv_p0 n0 

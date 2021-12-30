@@ -1,0 +1,35 @@
+14
+input sel1
+input sel0
+input line00
+input line01
+input line10
+input line11
+not inv1
+not inv0
+and and00
+and and01
+and and10
+and and11
+or or
+output mux4
+19
+wire sel0 inv0
+wire sel1 inv1
+wire line00 and00
+wire inv1 and00
+wire inv0 and00
+wire line01 and01
+wire inv1 and01
+wire sel0 and01
+wire line10 and10
+wire sel1 and10
+wire inv0 and10
+wire line11 and11
+wire sel1 and11
+wire sel0 and11
+wire and00 or
+wire and01 or
+wire and10 or
+wire and11 or
+wire or mux4
